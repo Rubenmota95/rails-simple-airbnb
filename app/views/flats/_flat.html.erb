@@ -1,0 +1,25 @@
+<div class="container rounded bg-light text-dark my-2">
+  <div id="<%= dom_id flat %>">
+    <p>
+      <strong>Name:</strong>
+      <%= flat.name %>
+    </p>
+
+    <p>
+      <strong>Address:</strong>
+      <%= flat.address %>
+    </p>
+
+    <p>
+      <strong>Description:</strong>
+      <%= flat.description %>
+    </p>
+
+    <p class="container">
+      <strong><i class="fa-solid fa-euro-sign"></i>
+      </strong> <%= flat.price_per_night %>
+      <strong><i class="fa-solid fa-people-group"></i> </strong>
+      <%= flat.number_of_guests %>
+    </p>
+  </div>
+</div>
